@@ -1,0 +1,17 @@
+/* цвет основного текста 
+черный 000000 синий 2196F3 */
+/* белый FFFFFF */
+/* вторичный текст 757575 */
+
+
+/* Common styles */
+.list {
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+}
+
+
+/* Element styles */
+
