@@ -1,10 +1,17 @@
 /* цвет основного текста 
+
 черный 000000 синий 2196F3 */
+
 /* белый FFFFFF */
+
 /* вторичный текст 757575 */
 
 
 /* Common styles */
+.header, 
+.footer {
+    font-family: roboto;
+}
 .list {
     list-style: none;
 }
@@ -13,5 +20,27 @@
 }
 
 
-/* Element styles */
 
+/* Element styles */
+.header-btn:hover,
+.header-btn:focus {
+color: 000000;
+}
+
+.header-btn:active {
+    background-color: 2196F3;
+    color: FFFFFF;
+}
+
+
+.nav:hover,
+.link:hover,
+.nav:focus,
+.link:focus {
+    color: 757575;
+}
+
+.nav:active,
+.link:active {
+    color: 2196F3;
+}
